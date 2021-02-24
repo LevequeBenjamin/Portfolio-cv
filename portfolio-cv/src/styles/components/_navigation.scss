@@ -37,7 +37,7 @@
         text-transform: uppercase;
         letter-spacing: .2rem;
         margin-top: 1.5rem;
-        color: $color-5;
+        color: $color-2;
       }
     }
   }
@@ -59,10 +59,10 @@
         }
 
         a {
-        color: $color-5;
+        color: $color-2;
         }
         .navActive {
-          color: $color-4;
+          color: $black;
         }
 
         i {
@@ -88,8 +88,7 @@
 
       li {
         font-size: 1.5rem;
-        background: $color-5;
-        color: $color-1;
+        background: $color-2;
         border-radius: 50%;
         height: 50px;
         width: 50px;
@@ -110,7 +109,7 @@
       text-align: center;
       letter-spacing: 0.1rem;
       font-size: .7rem;
-      color: $color-3;
+      color: $black;
     }
   }
 }

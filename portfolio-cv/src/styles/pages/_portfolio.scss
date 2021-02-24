@@ -22,7 +22,7 @@
     box-shadow: $shadow;
 
     li {
-      color: $color-3;
+      color: $color-2;
       font-size: 1.1rem;
       text-transform: uppercase;
       padding: 0 1rem;
@@ -43,7 +43,7 @@
           height: .9rem;
           width: .9rem;
           border-radius: 50%;
-          border: 2px solid $color-4;
+          border: 2px solid $color-2;
           cursor: pointer;
           transition: 0.3s;
         }
@@ -58,7 +58,7 @@
           border-radius: 50%;
           cursor: pointer;
           transition: 0.3s;
-          background: $color-4;
+          background: $color-2;
           transform: scale(0);
           transform-origin: center;
         }
@@ -69,7 +69,7 @@
         left: -6px;
       }
       input:checked + label {
-        color: $color-4;
+        color: $black;
       }
       label {
         cursor: pointer;
@@ -108,7 +108,7 @@
       i {
         font-size: 1.4rem;
         padding: 0 .35rem;
-        color: $color-5;
+        color: $color-1;
         text-shadow: 0 0px 1px $color-1;
       }
     }
@@ -133,7 +133,7 @@
     }
     .infos {
       grid-area: 4;
-      color: $color-4;
+      color: $color-1;
       cursor: pointer;
       font-size: 1.5rem;
       @include verticalCenter;
@@ -158,7 +158,7 @@
         top: 25%;
         width: 600px;
         margin: 0 auto;
-        color: $color-5;
+        color: $black;
         background: $color-1;
         border-radius: $borderRadius;
         padding: 2rem;
@@ -181,11 +181,12 @@
       h2 {
         text-align: left;
         margin-bottom: 1rem;
+        color: $color-2;
       }
       .button {
         cursor: pointer;
-        color: $color-1;
-        background: $color-5;
+        color: $black;
+        background: $color-2;
         border-radius: $borderRadius;
         padding: 1rem;
         transition: .2s;
@@ -235,4 +236,73 @@
       }
     }
   }
+}
+/* Définition effet apparition menu */
+@keyframes apparition{
+  from{
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes apparition2{
+  from{
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes apparition3{
+  from{
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes apparition4{
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes apparition5{
+  from{
+    opacity: 0;
+    transform: translateY(120px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fin définition effet apparition menu */
+/* Apparition défilement menu */ 
+.project:nth-child(1){
+  animation: apparition 2s 0s $courbe;
+}
+.project:nth-child(2){
+  animation: apparition2 2.2s 0s $courbe;
+}
+.project:nth-child(3){
+  animation: apparition3 2.4s 0s $courbe;
+}
+.project:nth-child(4){
+  animation: apparition4 2.6s 0s $courbe;
+}
+.project:nth-child(5){
+  animation: apparition5 2.8s 0s $courbe;
 }
