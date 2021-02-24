@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const Navigation = () => {
 	return (
 		<div className="sidebar">
 			<div className="id">
 				<div className="idContent">
-					<img src={require("../media/benjaminleveque.jpg")} alt="profil-pic" />
+					<img src="./media/benjaminleveque.jpg" alt="profil-pic" />
 					<h3>Benjamin Lévêque</h3>
 				</div>
 			</div>
@@ -33,7 +34,7 @@ const Navigation = () => {
 					</li>
 					<li>
 						<NavLink exact to="/contact" activeClassName="navActive">
-							<i className="fas fa-home"></i>
+							<i className="fas fa-address-book"></i>
 							<span>Contact</span>
 						</NavLink>
 					</li>
