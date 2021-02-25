@@ -6,12 +6,14 @@ class Languages extends Component {
     languages: [
       {id: 1, value: "html", xp:1},
       {id: 2, value: "Css", xp:1},
-      {id: 3, value: "javaScript", xp:0.8}
+      {id: 3, value: "javaScript", xp:0.8},
+      //{id: 4, value: "Php", xp:0}
     ],
     frameworks: [
       {id: 1, value: "express", xp:0.6},
       {id: 2, value: "react", xp:0.4},
-      {id: 3, value: "sass", xp:0.8}
+      {id: 3, value: "sass", xp:0.8},
+      {id: 4, value: "talwind", xp:0.4}
     ]
   }
   render() {
