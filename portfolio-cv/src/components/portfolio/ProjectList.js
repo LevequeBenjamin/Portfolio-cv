@@ -8,6 +8,7 @@ class ProjectList extends Component {
 		radios: [
 			{ id: 1, value: 'css' },
 			{ id: 2, value: 'javascript' },
+			{ id: 3, value: 'react' },
 		],
     selectedRadio: 'css'
 	};

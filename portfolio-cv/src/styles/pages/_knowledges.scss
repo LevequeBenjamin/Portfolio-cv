@@ -15,7 +15,7 @@
 		.experience,
 		.otherSkills,
 		.hobbies {
-			background: $color-2;
+			background: rgba(255, 184, 51, 0.9);
 			border-radius: $borderRadius;
 			padding: 0.8rem;
 		}
@@ -95,7 +95,7 @@
 						border-radius: 50px;
 						height: 0.4rem;
 						width: 0;
-						animation: line 2s ease-out forwards;
+						animation: line 1s ease-out forwards;
 
 						@keyframes line {
 							to {
@@ -111,11 +111,10 @@
 			margin: 0 0 0.5rem 0.5rem;
 			display: grid;
 			grid-template-columns: 1fr;
-			grid-template-rows: 10% 1fr 1fr;
+			grid-template-rows: 10% 1fr;
 			grid-template-areas:
 				'1'
-				'2'
-				'3';
+				'2';
 
 			h3 {
 				grid-area: 1;
@@ -128,15 +127,12 @@
 				color: $color-1;
 				padding: 0.5rem 0 0.5rem 1rem;
 			}
-			p {
+			li {
 				text-align: justify;
 				padding: 0 1rem;
 			}
 			.exp-1 {
 				grid-area: 2;
-			}
-			.exp-2 {
-				grid-area: 3;
 			}
 		}
 		.otherSkills {
@@ -214,7 +210,7 @@
 	.knowledgesContent {
 		display: grid !important;
 		grid-template-columns: 1fr !important;
-		grid-template-rows: 1fr 1fr 180px 180px !important;
+		grid-template-rows: 450px 700px 180px 180px !important;
 
 		.languages {
 			grid-area: 1 !important;

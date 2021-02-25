@@ -23,7 +23,7 @@ const Navigation = () => {
 					<li>
 						<NavLink exact to="/competences" activeClassName="navActive">
 							<i className="fas fa-mountain"></i>
-							<span>competences</span>
+							<span>Competences</span>
 						</NavLink>
 					</li>
 					<li>
@@ -45,7 +45,7 @@ const Navigation = () => {
 				<ul>
 					<li>
 						<a
-							href="https://www.google.com"
+							href="https://www.linkedin.com/in/benjamin-leveque-812992137/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -54,7 +54,7 @@ const Navigation = () => {
 					</li>
 					<li>
 						<a
-							href="https://www.google.com"
+							href="https://github.com/LevequeBenjamin"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -63,7 +63,7 @@ const Navigation = () => {
 					</li>
 					<li>
 						<a
-							href="https://www.google.com"
+							href="https://twitter.com/LvqueBenjamin2"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -72,7 +72,7 @@ const Navigation = () => {
 					</li>
 					<li>
 						<a
-							href="https://www.google.com"
+							href="https://codepen.io/bosso74"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

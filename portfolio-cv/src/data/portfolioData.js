@@ -44,4 +44,13 @@ export const portfolioData = [
     info: "Le sujet du projet 6 du parcours Développeur web chez Openclassrooms porte sur le développement d'une application d’évaluation des sauces piquantes pour la marque 'So Pekocko'. L'objectif étant de créer un MVP permettant aux utilisateurs d’ajouter leurs sauces préférées et de liker ou disliker les sauces ajoutées par les autres utilisateurs.",
     picture: './media/project5.png'
   },
+  {
+    id: 6,
+    name: 'Portfolio',
+    languages: ['javascript','css', 'react'],
+    languagesIcons: ['fab fa-js', 'fab fa-css3-alt', 'fab fa-react'],
+    source: 'https://github.com/LevequeBenjamin/Portfolio-cv',
+    info: "Avant d'attaquer le 7ème et dernier projet de la formation de développeur web chez Openclassrooms j'ai eu envie de faire une pause et de découvrir React. J'ai donc réalisé un petit portfolio responsive qui permet de vous présenter tous mes travaux :)",
+    picture: './media/portfolio.png'
+  },
 ]

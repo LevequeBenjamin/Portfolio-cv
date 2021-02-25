@@ -45,46 +45,38 @@ const Contact = () => {
 					</div>
 					<div className="socialNetwork">
 						<ul>
-							<li>
 								<a
-									href="https://www.google.com"
+									href="https://www.linkedin.com/in/benjamin-leveque-812992137/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
                   <h4>Linkedin</h4>
 									<i className="fab fa-linkedin"></i>
 								</a>
-							</li>
-							<li>
 								<a
-									href="https://www.google.com"
+									href="https://github.com/LevequeBenjamin"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
                   <h4>GitHub</h4>
 									<i className="fab fa-github"></i>
 								</a>
-							</li>
-							<li>
 								<a
-									href="https://www.google.com"
+									href="https://twitter.com/LvqueBenjamin2"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
                   <h4>Twitter</h4>
 									<i className="fab fa-twitter"></i>
 								</a>
-							</li>
-							<li>
 								<a
-									href="https://www.google.com"
+									href="https://codepen.io/bosso74"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
                   <h4>Codepen</h4>
 									<i className="fab fa-codepen"></i>
 								</a>
-							</li>
 						</ul>
 					</div>
 				
