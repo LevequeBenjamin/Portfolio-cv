@@ -149,14 +149,16 @@
       left: 0;
       bottom: 0;
       right: 0;
+      height: 100%;
       background: rgba(0, 0, 0, 0.507);
       animation: popup .3s ease forwards ;
       transform-origin: center;
 
       .infosContent {
-        position: relative;
+        position: sticky;
+        position: -webkit-sticky;
         top: 25%;
-        width: 600px;
+        max-width: 600px;
         margin: 0 auto;
         color: $black;
         background: rgba($color-1, 0.9);
@@ -228,12 +230,7 @@
     grid-template-rows: 1fr !important;
 
     .project {
-      grid-template-rows: 30px 40px 80px 40px !important;
       width: 98% !important;
-
-      img {
-        height: 100% !important;
-      }
     }
   }
 }
