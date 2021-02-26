@@ -7,11 +7,7 @@ class Languages extends Component {
       {id: 1, value: "html", xp:1},
       {id: 2, value: "Css", xp:1},
       {id: 3, value: "javaScript", xp:0.8},
-<<<<<<< HEAD:portfolio-cv/src/components/knowledges/Languages.js
       {id:4, value: "nodeJS", xp:0.6}
-=======
-      //{id: 4, value: "Php", xp:0}
->>>>>>> 64dd9f558c370e6313e310275e6e4ca546c97b7d:src/components/knowledges/Languages.js
     ],
     frameworks: [
       {id: 1, value: "express", xp:0.6},
