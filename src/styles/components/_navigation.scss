@@ -1,5 +1,6 @@
 .sidebar {
-  background: rgba($black, 0.9);
+  border: 1px solid $color-2;
+  background: $color-background-1;
   font-family: $font-1;
   height: 100%;
   min-height: $minHeight;

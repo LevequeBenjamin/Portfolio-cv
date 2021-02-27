@@ -4,6 +4,7 @@ $font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
+$color-background-1:rgba(34, 34, 41, 0.9);
 $color-1: #00889C;
 $color-2: #FFB347;
 $color-3: rgb(99, 164, 233);
@@ -12,7 +13,7 @@ $color-5: #36d0ea;
 $white: #ddd;
 $black: #333;
 
-$borderRadius: 25px;
+$borderRadius: 5px;
 $shadow: 0 1px 3px #333;
 $minHeight: 95vh;
 
@@ -34,8 +35,8 @@ body {
 	max-width: 1200px;
 	min-height: 800px;
 	font-family: $font-1;
-	color: $black;
-	background-image: url('../media/erik-mclean-8SeJUmfahu0-unsplash.jpg');
+	color: $white;
+	background-image: url('../media/thor-alvis-sgrCLKYdw5g-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
